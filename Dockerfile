@@ -69,7 +69,6 @@ RUN eval "$(~/bin/gimme ${GIMME_GO_VERSION})" ; . ~/.bash_profile; \
 
 WORKDIR ${HMY_PATH}/harmony
 
-# TODO remove once `install_protoc.sh` changes are committed
 COPY scripts scripts
 
 RUN eval "$(~/bin/gimme ${GIMME_GO_VERSION})" ; scripts/install_build_tools.sh
