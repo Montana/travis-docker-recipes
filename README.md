@@ -1,8 +1,6 @@
 
 # Travis Docker Recipes
 
-### `--platform`
-
 By default, the image is built using the same architecture as the host/build machine. To override that, pass a valid platform string:
 ```sh
 # build for arm64
